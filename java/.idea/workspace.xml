@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fe18384b-d176-4163-947f-e7337e45abff" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FgHir7bKJc3QlU5AVby5LLXilE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ss691/OneDrive/Skrivbord/Programmeringslabbar/java/javalabbar/Chattcontacts/src&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Chattcontacts\src" />
+      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Tow\src" />
+      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Control\src" />
+      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Chatt\src" />
+      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Chattcontacts\src" />
+      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Control" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Control" />
+      <module name="Control" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tow" />
+      <module name="Tow" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Twoballs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Twoballs" />
+      <module name="biljard" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chattfor2contacts" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chattfor2contacts" />
+      <module name="Chatt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gasstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="gasstart" />
+      <module name="biljard" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Control" />
+      <item itemvalue="Application.Tow" />
+      <item itemvalue="Application.chattfor2contacts" />
+      <item itemvalue="Application.gasstart" />
+      <item itemvalue="Application.Twoballs" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Tow" />
+        <item itemvalue="Application.Control" />
+        <item itemvalue="Application.chattfor2contacts" />
+        <item itemvalue="Application.gasstart" />
+        <item itemvalue="Application.Twoballs" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fe18384b-d176-4163-947f-e7337e45abff" name="Changes" comment="" />
+      <created>1664906941654</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664906941654</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javalabbar/Chatt/src/chattfor2.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/javalabbar/labb1/src/uppgift1.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
