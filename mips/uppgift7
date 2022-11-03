@@ -1,0 +1,34 @@
+.data
+ myArray: .space 40
+ newline : .asciiz "\n"
+.text
+main:
+   li $t0,0
+   li $t1,0
+   j arrayloop
+arrayloop:
+   li $v0,5
+   syscall
+   move $a1,$v0 #gets a numb in a1
+   beqz $a1, printarray
+   sw $a1, myArray($t0)
+   add $t0,$t0,4
+   j arrayloop
+printarray:
+   li $v0,4
+   la $a0, newline #Print a new line
+   syscall 
+   beq $t0,$t1,endprogram 
+   li $v0, 1
+   lw $a0, myArray($t1)
+   syscall
+   li $v0,4
+   la $a0, newline #Print a new line
+   syscall 
+   add $t1,$t1,4
+   j printarray
+
+endprogram:
+  
+ 
+  

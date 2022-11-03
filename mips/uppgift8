@@ -1,0 +1,43 @@
+.data
+ myArray: .space 40
+ newline : .asciiz "\n"
+.text
+main:
+   li $t0,0
+   li $t1,0
+   j arrayloop
+arrayloop:
+   li $v0,5
+   syscall
+   move $a1,$v0 #gets a numb in a1
+   beqz $a1, startcheck
+   sw $a1, myArray($t0)
+   add $t0,$t0,4
+   j arrayloop
+startcheck:
+   sub $t0,$t0,4
+   j checkarray
+checkarray:
+   beq $t0,$t1,notpal
+   lw $a1,myArray($t0)
+   lw $a2,myArray($t1)
+   bne $a1,$a2, notpal
+   add $t1,$t1,4
+   sub $t0,$t0,4
+   bgt $t1,$t0, ispal 
+   j checkarray    
+
+
+notpal:
+   li $v0, 1
+   li $a0,0
+   syscall
+   li $v0, 10
+   syscall 
+
+ispal:
+   li $v0, 1
+   li $a0,1
+   syscall
+   li $v0, 10
+   syscall 

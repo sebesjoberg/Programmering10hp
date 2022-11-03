@@ -1,0 +1,21 @@
+li $v0,5
+syscall
+move $a1,$v0 #first numb
+li $a3, 1
+loop:
+  li $v0,5
+  syscall
+  move $a2,$v0 #new number
+  beqz $a2, endprogram
+  add $a3,$a3,1
+  add $a1,$a1,$a2
+  j loop
+  
+endprogram:
+  mtc1 $a3, $f2
+  cvt.s.w $f2, $f2 #f2 is number of numbs
+  mtc1 $a1, $f1
+  cvt.s.w $f1, $f1 #f1 is the sum
+  div.s $f12,$f1,$f2
+  li $v0, 2
+  syscall

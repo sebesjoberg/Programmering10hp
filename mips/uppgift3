@@ -1,0 +1,25 @@
+li $a0,2
+mtc1 $a0, $f8
+cvt.s.w $f8, $f8
+
+li $v0,6
+syscall
+mov.s $f1,$f0 #a
+li $v0,6
+syscall
+mov.s $f2,$f0 #b
+li $v0,6
+syscall
+mov.s $f3,$f0 #c
+add.s $f4,$f1,$f2 
+add.s $f4,$f4,$f3 #2*s
+div.s $f4,$f4,$f8
+sub.s $f1,$f4,$f1 #s-a
+sub.s $f2,$f4,$f2 #s-b
+sub.s $f3,$f4,$f3 #s-c
+mul.s $f4,$f4,$f1 #s(s-a)
+mul.s $f4,$f4,$f2 #s(s-a)(s-b)
+mul.s $f4,$f4,$f3 #s(s-a)(s-b)(s-c)
+mov.s $f12,$f4
+li $v0, 2
+syscall
