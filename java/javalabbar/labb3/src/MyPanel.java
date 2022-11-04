@@ -26,7 +26,7 @@ public class MyPanel extends JPanel implements ActionListener {
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
         Graphics g2d = (Graphics2D) g;
-        int[] degrees = {0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330};
+        int[] degrees = { 0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330 };
         MyPanel obj = new MyPanel();
 
         for (int degree : degrees) {
@@ -34,7 +34,6 @@ public class MyPanel extends JPanel implements ActionListener {
         }
         obj.calenderToVisare((Graphics2D) g2d, obj);
     }
-
 
     public void urTavla(int degree, Graphics2D g2d) {
         int radie = 20;
@@ -60,15 +59,16 @@ public class MyPanel extends JPanel implements ActionListener {
         int yStart = (int) (this.Y_MIDDLE + this.RADIUS * Math.sin(degree * (Math.PI / 180)));
         int xEnd = (int) (xStart + this.STRECK_LANGD * Math.cos(degree * (Math.PI / 180)));
         int yEnd = (int) (yStart + this.STRECK_LANGD * Math.sin(degree * (Math.PI / 180)));
-        int xnumber = (int) (this.X_MIDDLE + (this.RADIUS - this.STRECK_LANGD - 30) * Math.cos(degree * (Math.PI / 180)));
-        int ynumber = (int) (this.Y_MIDDLE + (this.RADIUS - this.STRECK_LANGD - 30) * Math.sin(degree * (Math.PI / 180)));
+        int xnumber = (int) (this.X_MIDDLE
+                + (this.RADIUS - this.STRECK_LANGD - 30) * Math.cos(degree * (Math.PI / 180)));
+        int ynumber = (int) (this.Y_MIDDLE
+                + (this.RADIUS - this.STRECK_LANGD - 30) * Math.sin(degree * (Math.PI / 180)));
         g2d.setColor(Color.black);
         g2d.drawString(number, xnumber, ynumber);
         g2d.setColor(Color.cyan);
         g2d.setStroke(new BasicStroke(this.URTAVLA_WIDTH));
         g2d.drawLine(xStart, yStart, xEnd, yEnd);
     }
-
 
     public void calenderToVisare(Graphics2D g2d, MyPanel obj) {
         Calendar now = Calendar.getInstance();

@@ -1,4 +1,6 @@
 import string
+# file to makerunes
+# pythonprov 2022-10-14
 
 
 def uppgift():
@@ -6,8 +8,9 @@ def uppgift():
 
 
 def test():
-    cases = ["hejjj jag", "", "HEJ Ja,menG Ud vaddårå? ajabajjjjja annars så","JJJJJJJJjjjJJJJJJJjjjjjjjjjjjjj"]
-    expected = ["HEJAG", "", "HEJAMENGUDVADRAJABAJANARS","J"]
+    cases = ["hejjj jag", "", "HEJ Ja,menG Ud vaddårå? ajabajjjjja annars så",
+             "JJJJJJJJjjjJJJJJJJjjjjjjjjjjjjj"]
+    expected = ["HEJAG", "", "HEJAMENGUDVADRAJABAJANARS", "J"]
     for i in range(len(cases)):
         case = cases[i]
         print(make_runes(case) == expected[i])

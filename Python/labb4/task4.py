@@ -1,6 +1,8 @@
-from uppgift3 import web_linksgetter
+from task3 import web_linksgetter
 from urllib.parse import urljoin
 from urllib.request import urlopen
+# file to find all dead links on website
+# task 4 lab 4
 
 
 def find_all_full_links(url):
@@ -19,17 +21,16 @@ def dead_links_checker(url):
     weird_links = 0
     for link in links:
         if "http" in link.lower():
-            http_links +=1
+            http_links += 1
             try:
                 page = urlopen(url, timeout=3)
             except:
                 dead_links.add(url)
         else:
-            weird_links +=1
-
+            weird_links += 1
 
     print(dead_links)
-    print(http_links,weird_links)
+    print(http_links, weird_links)
 
 
 def test():

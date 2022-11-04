@@ -1,4 +1,6 @@
 from urllib.request import urlopen
+# file to find all links on a website
+# task 3 lab 4
 
 
 def find_first_link(text):
