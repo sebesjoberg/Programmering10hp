@@ -1,4 +1,6 @@
-from uppgift1 import siffsum as ssf
+# file for checking if digit sum^3=number for int<=10000
+# task 3 lab 1
+from task1 import siffsum as ssf
 
 
 def checker(number):
@@ -8,13 +10,10 @@ def checker(number):
 
 
 def test():
-    number = 0
-    while number <= 10000:
-
+    for number in range(10001):
         if checker(number):
             print(number, "satisfies condition")
-        number += 1
 
 
-test()
-
+if __name__ == "__main__":
+    test()

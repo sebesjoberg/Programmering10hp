@@ -1,4 +1,6 @@
 import numpy as np
+# file to calculate sequence length
+# task 4 lab 1
 
 
 def sequence(number):
@@ -14,12 +16,8 @@ def sequence(number):
 
 
 def test(nbWanted):  # test function
-    numbers = np.random.randint(100, size=nbWanted)  # random cases
-    for number in numbers:
-        counter = sequence(number)
-        print(number, ' has sequence length ', counter)
-
-    numbers = [0, 1]  # edge/intresting cases
+    numbers = np.random.randint(100, size=nbWanted).tolist()  # random cases
+    numbers.extend([0, 1])   # edge/intresting cases
     for number in numbers:
         counter = sequence(number)
         print(number, ' has sequence length ', counter)
