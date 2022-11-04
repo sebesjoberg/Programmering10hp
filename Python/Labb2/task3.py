@@ -1,4 +1,7 @@
-from uppgift1 import is_sorted
+# file for implementing bubblesort
+# task 3 lab 2
+from task1 import is_sorted
+
 
 def bytintill(lista):
     switch = False
@@ -15,7 +18,6 @@ def bubblesort(arr):
         switch = bytintill(arr)
 
 
-
 def test():
     arrays = [[1, 2, 3, 4, 5],
               [6, 7, 2, 4, 1, 8],
@@ -23,7 +25,6 @@ def test():
     for arr in arrays:
         bubblesort(arr)
         print(is_sorted(arr))
-
 
 
 if __name__ == "__main__":

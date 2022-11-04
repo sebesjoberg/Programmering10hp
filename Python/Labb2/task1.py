@@ -1,3 +1,5 @@
+# file for checking if array is sorted
+# task 1 lab 1
 def is_sorted(arr):
 
     for i in range(0, len(arr) - 1):
@@ -11,9 +13,9 @@ def test():
               [55, 22, 1, 4, 5, 10]]
     for arr in arrays:
         if is_sorted(arr):
-            print(arr, " är sorterad")
+            print(arr, " is sorted")
         else:
-            print(arr, " är inte sorterad")
+            print(arr, " is not sorted")
 
 
 if __name__ == "__main__":

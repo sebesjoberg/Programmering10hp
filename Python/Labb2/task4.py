@@ -1,10 +1,9 @@
 import time
-from uppgift3 import bubblesort
+from task3 import bubblesort
 import numpy as np
-#runt n=4 alltså 10 000 börjar det ta lång tid cirka 30-35 sekunder
-#n=5 tar alldeles för lång tid enligt estimation 1h då t=H(n^2)
-#sort använder timsort som är typ mergesort har komplexitet n*log(n) så bättre
-#sorterar delar för att få mindre lookups
+# file for checking bubblesort time outputs time
+# task 4 lab 2
+
 
 def timingbubble():
     times = []
@@ -23,9 +22,6 @@ def main():
     times = timingbubble()
     print(times)
 
+
 if __name__ == "__main__":
     main()
-
-
-
-
