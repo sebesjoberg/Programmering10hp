@@ -1,3 +1,4 @@
+# Credits go to Sebastian Sjöberg
 # file for returning word count, dictionary where key is number of occurances
 # and most common word
 # task 1 lab 3

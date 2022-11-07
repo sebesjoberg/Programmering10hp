@@ -1,4 +1,8 @@
 public class labb2 {
+    /**
+     *
+     * @author Sebastian Sjöberg
+     */
     public static void main(String[] args) {
         // village village1 = new village(true);
         Village village = new Village(false, true);

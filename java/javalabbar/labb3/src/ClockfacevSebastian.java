@@ -7,7 +7,7 @@ import java.util.Calendar;
  *
  * @author Sebastian Sjöberg
  */
-public class MyPanelv1 extends JPanel implements ActionListener {
+public class ClockFacevSebastian extends JPanel implements ActionListener {
     final Color HAND_COLOR = Color.PINK;
     final int URTAVLA_WIDTH = 20;
     final int HOUR_HAND_LENGTH = 100;
@@ -30,7 +30,7 @@ public class MyPanelv1 extends JPanel implements ActionListener {
         super.paintComponent(g);
         Graphics g2d = (Graphics2D) g;
         int[] degrees = { 0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330 };
-        MyPanelv1 obj = new MyPanelv1();
+        ClockFacevSebastian obj = new ClockFacevSebastian();
 
         for (int degree : degrees) {
             obj.urTavla(degree, (Graphics2D) g2d);
@@ -73,7 +73,7 @@ public class MyPanelv1 extends JPanel implements ActionListener {
         g2d.drawLine(xStart, yStart, xEnd, yEnd);
     }
 
-    public void calenderToVisare(Graphics2D g2d, MyPanelv1 obj) {
+    public void calenderToVisare(Graphics2D g2d, ClockFacevSebastian obj) {
         Calendar now = Calendar.getInstance();
         int hour = now.get(Calendar.HOUR_OF_DAY);
         int minute = now.get(Calendar.MINUTE);

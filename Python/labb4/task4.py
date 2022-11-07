@@ -1,3 +1,4 @@
+# Credits go to Sebastian Sjöberg
 from task3 import web_linksgetter
 from urllib.parse import urljoin
 from urllib.request import urlopen

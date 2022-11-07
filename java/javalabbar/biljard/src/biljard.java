@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-class Twoballs {
+class biljard {
 
     final static int UPDATE_FREQUENCY = 100;    // Global constant: fps, ie times per second to simulate
 

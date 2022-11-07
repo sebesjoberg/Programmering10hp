@@ -1,4 +1,5 @@
-# file for getting initials of a name
+# Credits go to Sebastian Sjöberg
+# # file for getting initials of a name
 # task 2 lab 2
 def initialsgetter(name):
     name = name.split()

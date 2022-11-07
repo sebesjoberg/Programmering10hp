@@ -1,3 +1,4 @@
+# Credits go to Sebastian Sjöberg
 import time
 from task3 import bubblesort
 import numpy as np

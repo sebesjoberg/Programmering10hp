@@ -1,4 +1,5 @@
-# file for checking if digit sum^3=number for int<=10000
+# Credits go to Sebastian Sjöberg
+# # file for checking if digit sum^3=number for int<=10000
 # task 3 lab 1
 from task1 import siffsum as ssf
 

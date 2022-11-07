@@ -14,7 +14,7 @@ import java.util.Random;
  *
  * @author Nils Carlberg
  */
-public class ClockFace extends JPanel implements ActionListener{
+public class ClockFacevNils extends JPanel implements ActionListener{
     final int SIZEX = 415, SIZEY = 415;
     final int CLOCK_RADIUS = 210, CLOCK_CENTRE = 200;
     final double BLOCK_ANGLE = Math.PI / 6;
@@ -29,7 +29,7 @@ public class ClockFace extends JPanel implements ActionListener{
     Color.BLUE, Color.CYAN, Color.ORANGE, Color.WHITE, Color.BLACK, Color.GREEN};
     Random rand = new Random();
     
-    ClockFace() {
+    ClockFacevNils() {
         setPreferredSize(new Dimension(SIZEX, SIZEY));
     }
     @Override

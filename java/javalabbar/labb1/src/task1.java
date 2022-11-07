@@ -1,6 +1,10 @@
-//program to calcualte the number sum
+//program to calculate the number sum
 
-public class uppgift1 {
+public class task1 {
+    /**
+     *
+     * @author Sebastian Sjöberg
+     */
     public static void main(String[] args) {
         test();
     }

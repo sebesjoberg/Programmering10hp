@@ -1,5 +1,8 @@
 import java.util.Random;
-
+/**
+ *
+ * @author Sebastian Sjöberg
+ */
 public class Person {
     boolean isSick;
     final double INIT_SICK_PROB = 0.1;

@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe18384b-d176-4163-947f-e7337e45abff" name="Changes" comment="" />
+    <list default="true" id="fe18384b-d176-4163-947f-e7337e45abff" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javalabbar/Chatt/src/chattcontacts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javalabbar/Chatt/src/contactsfchatt.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javalabbar/Tow/src/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javalabbar/biljard/src/biljard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javalabbar/labb1/src/task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javalabbar/labb1/src/task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javalabbar/labb3/src/ClockFacevNils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javalabbar/labb3/src/ClockfacevSebastian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javalabbar/labb3/src/labb3vNils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/javalabbar/labb3/src/labb3vSebastian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/Control/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/Control/src/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/Chatt/src/chattfor2contacts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/biljard/src/Ball.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/biljard/src/Table.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/Twoballs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/gasprojekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/biljard/src/gasprojekt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/labb1/src/uppgift1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/labb1/src/uppgift2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/labb2/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/labb2/src/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/labb2/src/Village.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/labb2/src/Village.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/labb2/src/labb2.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/labb2/src/labb2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/labb3/src/Clock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/labb3/src/MyPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/labb3/src/labb3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ChatParticipantContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ChatParticipantContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ClientContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ClientContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/MessageContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/MessageContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/MyObjectStreamListenerContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/MyObjectStreamListenerContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamListenerContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamListenerContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts$InnerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts$InnerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ServerContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ServerContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/chattfor2contacts.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biljard/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Ball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biljard/DeathDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/DeathDisplay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biljard/StartAndPause.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/StartAndPause.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biljard/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biljard/Twoballs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/uppgift1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/uppgift1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb2/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb2/Village.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/Village.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb2/labb2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/labb2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb3/Clock.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb3/MyPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb3/labb3.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,18 +63,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FgHir7bKJc3QlU5AVby5LLXilE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/ss691/OneDrive/Skrivbord/Programmeringslabbar/java/javalabbar/Chattcontacts/src&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
@@ -42,11 +99,11 @@
       <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\Java\javalabbar\labb3\src" />
+      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\Java\biljard2\src" />
       <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Tow\src" />
       <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Control\src" />
       <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Chatt\src" />
-      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Chattcontacts\src" />
-      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar" />
     </key>
   </component>
   <component name="RunManager">
@@ -64,9 +121,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Twoballs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Twoballs" />
+    <configuration name="biljard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="biljard" />
       <module name="biljard" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chattcontacts" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chattcontacts" />
+      <module name="Chatt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chattfor2" type="Application" factoryName="Application" singleton="false" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chattfor2" />
+      <module name="Chatt" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -85,20 +156,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="labb3" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.mycompany.labb3.labb3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycompany.labb3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.labb3" />
+      <item itemvalue="Application.chattcontacts" />
+      <item itemvalue="Application.chattfor2" />
+      <item itemvalue="Application.biljard" />
       <item itemvalue="Application.Control" />
       <item itemvalue="Application.Tow" />
       <item itemvalue="Application.chattfor2contacts" />
       <item itemvalue="Application.gasstart" />
-      <item itemvalue="Application.Twoballs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.chattfor2contacts" />
         <item itemvalue="Application.Tow" />
         <item itemvalue="Application.Control" />
-        <item itemvalue="Application.chattfor2contacts" />
         <item itemvalue="Application.gasstart" />
-        <item itemvalue="Application.Twoballs" />
+        <item itemvalue="Application.biljard" />
       </list>
     </recent_temporary>
   </component>
@@ -113,6 +201,20 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -120,11 +222,6 @@
           <url>file://$PROJECT_DIR$/javalabbar/Chatt/src/chattfor2.java</url>
           <line>41</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/javalabbar/labb1/src/uppgift1.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

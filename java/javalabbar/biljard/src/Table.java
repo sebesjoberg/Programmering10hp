@@ -64,7 +64,7 @@ class Table extends JPanel implements MouseListener, MouseMotionListener, Action
         addMouseListener(this);
         addMouseMotionListener(this);
 
-        simulationTimer = new Timer((int) (1000.0 / Twoballs.UPDATE_FREQUENCY), this);
+        simulationTimer = new Timer((int) (1000.0 / biljard.UPDATE_FREQUENCY), this);
     }
 
     private void createPlayers() {

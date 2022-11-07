@@ -1,6 +1,10 @@
 import java.util.Arrays;
-
-public class uppgift2 {
+//Program to perform bubblesort
+public class task2 {
+    /**
+     *
+     * @author Sebastian Sjöberg
+     */
     public static void main(String[] args){
       test();
     }

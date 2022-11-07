@@ -1,4 +1,5 @@
-# file for implementing bubblesort
+# Credits go to Sebastian Sjöberg
+# # file for implementing bubblesort
 # task 3 lab 2
 from task1 import is_sorted
 

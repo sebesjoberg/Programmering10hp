@@ -1,3 +1,4 @@
+# Credits go to Sebastian Sjöberg
 import random
 from task1 import stringsplitter, stringconverter, filereader
 # file for generating new text from a text

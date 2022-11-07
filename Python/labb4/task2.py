@@ -1,3 +1,4 @@
+# Credits go to Sebastian Sjöberg
 # file to get all emails from a website
 # task 2 lab 4
 from urllib.request import urlopen

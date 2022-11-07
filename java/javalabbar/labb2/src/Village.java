@@ -1,4 +1,8 @@
 public class Village {
+    /**
+     *
+     * @author Sebastian Sjöberg
+     */
     final int SIZE = 1000;
     Person[] population = new Person[SIZE];
 

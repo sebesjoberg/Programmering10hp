@@ -7,13 +7,13 @@
 import javax.swing.*;
 /**
  *
- * @author Nils
+ * @author Nils Carlberg
  */
-public class labb3 {
+public class labb3vNils {
     public static void main(String[] args) {
         JFrame frame = new JFrame("My Clock");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        ClockFace myClock = new ClockFace();       
+        ClockFacevNils myClock = new ClockFacevNils();
         frame.add(myClock);
         frame.pack();
         frame.setVisible(true);

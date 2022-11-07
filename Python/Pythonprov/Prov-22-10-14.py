@@ -1,3 +1,4 @@
+# Credits go to Sebastian Sjöberg Test distributed by Joachim Parrow
 import string
 # file to makerunes
 # pythonprov 2022-10-14

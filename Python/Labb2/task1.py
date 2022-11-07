@@ -1,4 +1,5 @@
-# file for checking if array is sorted
+# Credits go to Sebastian Sjöberg
+# # file for checking if array is sorted
 # task 1 lab 1
 def is_sorted(arr):
 

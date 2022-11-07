@@ -1,3 +1,4 @@
+# Credits go to Sebastian Sjöberg and Joachim Parrow
 import string
 EMAIL_CHARS = string.ascii_letters + string.digits + '.'
 # some assets for lab 4, including finding name part of email, adress part of email and finding first emial in string

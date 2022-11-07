@@ -24,7 +24,7 @@ class Ball {
     private final double FRICTION_PER_UPDATE
             = // friction applied each simulation step
             1.0 - Math.pow(1.0 - FRICTION, // don't ask - I no longer remember how I got to this
-                    100.0 / Twoballs.UPDATE_FREQUENCY);
+                    100.0 / biljard.UPDATE_FREQUENCY);
     Coord position;
     Coord velocity;
     private Coord aimPosition;              // if aiming for a shot, ow null
@@ -81,7 +81,7 @@ class Ball {
     void shoot() {
         if (isAiming()) {
             Coord aimingVector = Coord.sub(position, aimPosition);
-            velocity = Coord.mul(Math.sqrt(10.0 * aimingVector.magnitude() / Twoballs.UPDATE_FREQUENCY),
+            velocity = Coord.mul(Math.sqrt(10.0 * aimingVector.magnitude() / biljard.UPDATE_FREQUENCY),
                     aimingVector.norm());  // don't ask - determined by experimentation
             aimPosition = null;
         }

@@ -1,3 +1,4 @@
+# Credits go to Sebastian Sjöberg
 from task1 import stringsplitter, stringconverter, filereader
 # file for returning dictionary where value is the words following key
 # task 2 lab 3

@@ -1,5 +1,9 @@
 import java.awt.*;
+public class gasprojekt {
+    public static void main(String[] args){
 
+    }
+}
 class StartAndPause{
     int BORDER_THICKNESS=2;
     private Coord position;

@@ -11,10 +11,10 @@ import java.util.*;
  *
  * @author ss691
  */
-public class chattfor2contacts {
+public class chattcontacts {
 
     public static void main(String args[]) {
-        boolean isServer = false;
+        boolean isServer = true;
         int port = 7000;
 
         if (isServer == true) {
@@ -63,7 +63,7 @@ class ClientContacts implements ActionListener{
     Socket socket;
     String ip = "LocalHost";
    int port;
-   String file_path="C:\\Users\\ss691\\contactsfchatt"; 
+   String file_path="C:\\Users\\ss691\\contactsfchatt";
    PrintWriter print_line;
    String contactname;
     ClientContacts() {

@@ -1,3 +1,4 @@
+# Credits go to Sebastian Sjöberg
 from assets import find_first_email
 # file to find all email in string
 # task 1 lab 4
