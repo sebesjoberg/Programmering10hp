@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe18384b-d176-4163-947f-e7337e45abff" name="Changes" comment="">
+    <list default="true" id="fe18384b-d176-4163-947f-e7337e45abff" name="Changes" comment="changename">
+      <change afterPath="$PROJECT_DIR$/javalabbar/biljard/src/TwoballsGrade5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/Ball.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/Coord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/Table.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/biljard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/biljardgame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/gasprojekt.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "jdk.selected.JAVA_MODULE": "openjdk-18",
-    "last_opened_file_path": "C:/Users/ss691/Desktop/Programmering10hp/java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ss691/Desktop/Programmering10hp/java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -52,11 +60,11 @@
       <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ss691\Desktop\Programmering10hp\java\javalabbar\biljard\src" />
       <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\Java\javalabbar\labb3\src" />
       <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\Java\biljard2\src" />
       <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Tow\src" />
       <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Control\src" />
-      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Chatt\src" />
     </key>
   </component>
   <component name="RunManager">
@@ -152,6 +160,13 @@
       <option name="presentableId" value="Default" />
       <updated>1664906941654</updated>
     </task>
+    <task id="LOCAL−00001" summary="changename">
+      <created>1667927136819</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1667927136819</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +182,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="changename" />
+    <option name="LAST_COMMIT_MESSAGE" value="changename" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
