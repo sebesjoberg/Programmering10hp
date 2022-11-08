@@ -2,54 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe18384b-d176-4163-947f-e7337e45abff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javalabbar/Chatt/src/chattcontacts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javalabbar/Chatt/src/contactsfchatt.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javalabbar/Tow/src/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javalabbar/biljard/src/biljard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javalabbar/labb1/src/task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javalabbar/labb1/src/task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javalabbar/labb3/src/ClockFacevNils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javalabbar/labb3/src/ClockfacevSebastian.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javalabbar/labb3/src/labb3vNils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javalabbar/labb3/src/labb3vSebastian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/Control/src/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/Control/src/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/Chatt/src/chattfor2contacts.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/Ball.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/biljard/src/Ball.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/biljard/src/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/Twoballs.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/gasprojekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/biljard/src/gasprojekt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/labb1/src/uppgift1.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/labb1/src/uppgift2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/labb2/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/labb2/src/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/labb2/src/Village.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/labb2/src/Village.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/labb2/src/labb2.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/labb2/src/labb2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/labb3/src/Clock.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/labb3/src/MyPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/labb3/src/labb3.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ChatParticipantContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ChatParticipantContacts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ClientContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ClientContacts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/MessageContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/MessageContacts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/MyObjectStreamListenerContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/MyObjectStreamListenerContacts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamListenerContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamListenerContacts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts$InnerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts$InnerListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ServerContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ServerContacts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/chattfor2contacts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biljard/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Ball.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biljard/DeathDisplay.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/DeathDisplay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biljard/StartAndPause.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/StartAndPause.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biljard/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biljard/Twoballs.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb1/uppgift1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb1/uppgift1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb2/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb2/Village.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/Village.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb2/labb2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/labb2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb3/Clock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb3/MyPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb3/labb3.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,19 +30,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ss691/OneDrive/Skrivbord/Programmeringslabbar/java/javalabbar/Chattcontacts/src&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "openjdk-18",
+    "last_opened_file_path": "C:/Users/ss691/Desktop/Programmering10hp/java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
