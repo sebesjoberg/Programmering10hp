@@ -1,16 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fe18384b-d176-4163-947f-e7337e45abff" name="Changes" comment="changename">
-      <change afterPath="$PROJECT_DIR$/javalabbar/biljard/src/TwoballsGrade5.java" afterDir="false" />
+    <list default="true" id="fe18384b-d176-4163-947f-e7337e45abff" name="Changes" comment="adams poolgame">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/Ball.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/Coord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/Table.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/biljard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/biljardgame.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/gasprojekt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/TwoballsGrade5.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/biljard/src/TwoballsGrade5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +160,19 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1667927136819</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="adams poolgame">
+      <created>1667927500696</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1667927500696</updated>
+    </task>
+    <task id="LOCAL−00003" summary="adams poolgame">
+      <created>1667927598056</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1667927598056</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,7 +189,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="changename" />
-    <option name="LAST_COMMIT_MESSAGE" value="changename" />
+    <MESSAGE value="adams poolgame" />
+    <option name="LAST_COMMIT_MESSAGE" value="adams poolgame" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
