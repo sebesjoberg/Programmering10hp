@@ -14,7 +14,7 @@ import java.util.*;
 public class chattcontacts {
 
     public static void main(String args[]) {
-        boolean isServer = true;
+        boolean isServer = false;
         int port = 7000;
 
         if (isServer == true) {
@@ -63,7 +63,7 @@ class ClientContacts implements ActionListener{
     Socket socket;
     String ip = "LocalHost";
    int port;
-   String file_path="C:\\Users\\ss691\\contactsfchatt";
+   String file_path="C:\\Users\\ss691\\Desktop\\Programmering10hp\\java\\javalabbar\\Chatt\\src\\contactsfchatt.txt";
    PrintWriter print_line;
    String contactname;
     ClientContacts() {
@@ -145,6 +145,7 @@ class ClientContacts implements ActionListener{
     }
     void writeFile(String text,String name){
         String path=file_path+"\\"+name;
+        System.out.println(path);
         try {
             FileWriter write = new FileWriter(path);
             print_line = new PrintWriter(write);

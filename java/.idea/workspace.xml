@@ -2,9 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe18384b-d176-4163-947f-e7337e45abff" name="Changes" comment="adams poolgame">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/TwoballsGrade5.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/biljard/src/TwoballsGrade5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/Chatt/src/chattcontacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/Chatt/src/chattcontacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/Chatt/src/chattfor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/Chatt/src/chattfor2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ChatParticipant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ChatParticipant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ChatParticipantContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ChatParticipantContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ClientContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ClientContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/MessageContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/MessageContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/MyObjectStreamListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/MyObjectStreamListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/MyObjectStreamListenerContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/MyObjectStreamListenerContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamListenerContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamListenerContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager$InnerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager$InnerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts$InnerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts$InnerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManagerContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ServerContacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ServerContacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/chattcontacts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/chattcontacts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/chattfor2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/chattfor2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +81,7 @@
       <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Control\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.chattfor2">
     <configuration name="Control" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Control" />
       <module name="Control" />
@@ -197,7 +217,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/javalabbar/Chatt/src/chattfor2.java</url>
-          <line>41</line>
+          <line>45</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

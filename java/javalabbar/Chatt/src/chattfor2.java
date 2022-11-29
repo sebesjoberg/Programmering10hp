@@ -10,16 +10,14 @@ import java.util.*;
 public class chattfor2 {
 
     public static void main(String args[]) {
-        boolean isServer = false;
+
         int port = 4000;
+            try{
+            new Client(port);}
+            catch(Exception e) {
+                new Server(port);
+            }
 
-        if (isServer == true) {
-            new Server(port);
-
-        }
-        if (isServer == false) {
-            new Client(port);
-        }
 
     }
 }
@@ -56,12 +54,12 @@ class Client {
     Socket socket;
     String ip = "LocalHost";
 
-    Client(int port) {
+    Client(int port) throws Exception {
         try {
             socket = new Socket(ip, port);
             new ChatParticipant(socket);
         } catch (IOException ex) {
-           System.out.println("could not connect");
+            throw new Exception("Exception message");
         }
 //kontaktlista
     }
