@@ -12,8 +12,10 @@ public class chattfor2 {
     public static void main(String args[]) {
 
         int port = 4000;
+
             try{
-            new Client(port);}
+            new Client(port);
+            }
             catch(Exception e) {
                 new Server(port);
             }
@@ -44,6 +46,7 @@ class Server {
             } catch (IOException ex) {
 
             }
+
         }
 
     }
@@ -55,12 +58,10 @@ class Client {
     String ip = "LocalHost";
 
     Client(int port) throws Exception {
-        try {
-            socket = new Socket(ip, port);
-            new ChatParticipant(socket);
-        } catch (IOException ex) {
-            throw new Exception("Exception message");
-        }
+
+        socket = new Socket(ip, port);
+        new ChatParticipant(socket);
+
 //kontaktlista
     }
 
@@ -282,6 +283,7 @@ class MyObjectStreamListener implements ObjectStreamListener, ActionListener {
     @Override
     public void objectReceived(int number, Object object, Exception exception) {
         //when exception!=null close thing and also show jdialog
+
         if (exception != null) {
             try {
                 mychatter.SOCKET.close();

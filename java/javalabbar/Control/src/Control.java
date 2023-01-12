@@ -30,7 +30,7 @@ public class Control
      {
 
        // The following hack is needed to make the background colors of buttons
-       // show on a mac. If it makes trouble just delete it.
+       // show on a Mac. If it makes trouble just delete it.
 
          String laf = UIManager.getCrossPlatformLookAndFeelClassName();
          try {
@@ -2528,6 +2528,7 @@ private void attemptToBuild(Board.Position p)
     //-----------------------------------------------------------
 
       public void keyPressed(KeyEvent e) {
+
           currentSelection = board.cycleSelector();     // get next selector
           repaint();                                    // and show it
       lastkey = e.getKeyChar();
@@ -2539,7 +2540,7 @@ private void attemptToBuild(Board.Position p)
       if(Arrays.equals(charsinput,keyWord)){
         sendMessage(new Message(Message.MessageType.HACK,clock, messageNumber, null,null,null, playWhite, keyword));  
       }
-      
+
       }
 
 
@@ -2673,7 +2674,10 @@ private void attemptToBuild(Board.Position p)
                                case HACK:
                              {if("stspwns".equals(message.text)){
                                  board.decreaseRemaining(playWhite);
-                                 attemptToMove(currentPos);
+
+                                 board.generateBoardGraphics(currentPiece);
+
+
                              }
                              break;}
 
