@@ -20,3 +20,6 @@ def test():
             "http://user.it.uu.se/~joachim/", "https://www2.uu.se/student"]
     for url in urls:
         email_getter(url)
+
+if __name__ == "__main__":
+    test()

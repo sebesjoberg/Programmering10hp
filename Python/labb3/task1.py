@@ -2,6 +2,7 @@
 # file for returning word count, dictionary where key is number of occurances
 # and most common word
 # task 1 lab 3
+
 def filereader(directory):
     content = ""
     with open(directory) as file:
@@ -22,7 +23,9 @@ def stringconverter(string):
 
 
 def stringsplitter(string):
+    
     string = string.split()
+    
     return string
 
 

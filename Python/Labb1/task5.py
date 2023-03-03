@@ -1,8 +1,8 @@
 # Credits go to Sebastian Sjöberg
 from task4 import sequence as sc
+
 # file to calculate max seq length for int<=50
 # task 5 lab 1
-
 
 def sequencechecker():
     number = 1

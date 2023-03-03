@@ -1,3 +1,4 @@
+
 # Credits go to Sebastian Sjöberg
 import numpy as np
 # file to calculate digit sum

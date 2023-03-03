@@ -20,5 +20,5 @@ def test():
     content = stringsplitter(stringconverter(filereader(directory)))
     print(dictionary_creater(content))
 
-
-test()
+if __name__ == "__main__":
+    test()
