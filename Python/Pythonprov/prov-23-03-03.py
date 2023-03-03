@@ -33,7 +33,8 @@ def scramble(text):
 def test():
     cases = [['abcd','badc'],
              ['ab cd','ba dc'],
-             ['abc','bac'],['',''],
+             ['abc','bac'],
+             ['',''],
              [' ',''],
              ["hej jag heter",'ehj ajg ehetr'],
              ['hej!','ehj!']]
