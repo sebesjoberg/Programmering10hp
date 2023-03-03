@@ -17,12 +17,15 @@ def increase_max(sun_hours):
 
 
 def test():
-    cases = [[1,2,3,4,8],[],[2],[2,2],[3,3,3],[1,2,8,-16]]
-    expected = [5,-1,-1,-1,-1,7]
+    cases = [[[1,2,3,4,8],5],[[],-1],[[2],-1],[[2,2],-1],[[3,3,3],-1],[[1,2,8,-16],7]]
+  
     for index in range(len(cases)):
         case = cases[index]
-        res = increase_max(case)
-        print(case,"blir", res, res == expected[index])
+        try:
+            assert increase_max(case[0])==case[1]
+            print('Passed test:',index, case[0])
+        except:
+            print('Did not pass test:',index, case[0])
         
 def uppgift():
     test()

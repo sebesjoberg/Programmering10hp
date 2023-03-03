@@ -38,9 +38,9 @@ def test():
         case = cases[index]
         try:
             assert scramble(case[0])==case[1]
-            print('Passed test:',index)
+            print('Passed test:',index, case[0])
         except:
-            print('Did not pass test:',index)
+            print('Did not pass test:',index, case[0])
 
 
 def uppgift():

@@ -9,12 +9,18 @@ def uppgift():
 
 
 def test():
-    cases = ["hejjj jag", "", "HEJ Ja,menG Ud vaddårå? ajabajjjjja annars så",
-             "JJJJJJJJjjjJJJJJJJjjjjjjjjjjjjj"]
-    expected = ["HEJAG", "", "HEJAMENGUDVADRAJABAJANARS", "J"]
-    for i in range(len(cases)):
-        case = cases[i]
-        print(make_runes(case) == expected[i])
+    cases = [["hejjj jag","HEJAG"], 
+             ["",""], 
+             ["HEJ Ja,menG Ud vaddårå? ajabajjjjja annars så","HEJAMENGUDVADRAJABAJANARS"],
+             ["JJJJJJJJjjjJJJJJJJjjjjjjjjjjjjj","J"]]
+    
+    for index in range(len(cases)):
+        case = cases[index]
+        try:
+            assert make_runes(case[0])==case[1]
+            print('Passed test:',index, case[0])
+        except:
+            print('Did not pass test:',index, case[0])
 
 
 def make_runes(text):
