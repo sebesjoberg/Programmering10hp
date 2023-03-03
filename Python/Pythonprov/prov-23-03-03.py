@@ -31,7 +31,12 @@ def scramble(text):
 
 
 def test():
-    cases = [['abcd','badc'],['ab cd','ba dc'],['abc','bac'],['',''],[' ',''],["hej jag heter",'ehj ajg ehetr']]
+    cases = [['abcd','badc'],
+             ['ab cd','ba dc'],
+             ['abc','bac'],['',''],
+             [' ',''],
+             ["hej jag heter",'ehj ajg ehetr'],
+             ['hej!','ehj!']]
     for case in cases:
         print(scramble(case[0])==case[1])
 
