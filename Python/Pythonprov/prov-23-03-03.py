@@ -17,15 +17,9 @@ def scramble_word(text):
 
 
 def scramble(text):
-    text = text.split()
-   
     newtext=[]
-    for t in text:
-        
-        newtext.append(scramble_word(t))
-
-
-       
+    for t in text.split():
+        newtext.append(scramble_word(t)) 
     return ' '.join(newtext)
 
 
@@ -37,9 +31,16 @@ def test():
              ['',''],
              [' ',''],
              ["hej jag heter",'ehj ajg ehetr'],
-             ['hej!','ehj!']]
-    for case in cases:
-        print(scramble(case[0])==case[1])
+             ['hej!','ehj!'],
+             ['!?a!ba','!?a!ab'],
+             ["hej","ehj"]]
+    for index in range(len(cases)):
+        case = cases[index]
+        try:
+            assert scramble(case[0])==case[1]
+            print('Passed test:',index)
+        except:
+            print('Did not pass test:',index)
 
 
 def uppgift():
