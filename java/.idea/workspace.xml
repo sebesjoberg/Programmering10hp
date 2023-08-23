@@ -2,86 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe18384b-d176-4163-947f-e7337e45abff" name="Changes" comment="adams poolgame">
+      <change beforePath="$PROJECT_DIR$/../.idea/Programmering10hp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Programmering10hp.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Mips/task6" beforeDir="false" afterPath="$PROJECT_DIR$/../Mips/task6" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/Chatt/src/chattfor2.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/Chatt/src/chattfor2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/Control/src/Control.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/Control/src/Control.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/biljard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/biljard/biljard.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/TwoballsGrade5.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/biljard/src/TwoballsGrade5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ChatParticipant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ChatParticipant.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chatt/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/MyObjectStreamListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/MyObjectStreamListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager$InnerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager$InnerListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Chatt/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/Server.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/chattfor2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/chattfor2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Board$Hill.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Board$Hill.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Board$Position.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Board$Position.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Board$Region.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Board$Region.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Bouncer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Bouncer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Control.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Control.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/ControlTimer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/ControlTimer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/GameParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/GameParameters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Giant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Giant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/HeavyPiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/HeavyPiece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Keep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Keep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Message$MessageType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Message$MessageType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Nimbler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Nimbler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Pebble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Pebble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Piece$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Piece$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Piece$Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Piece$Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Piece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/PlayBack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/PlayBack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Player$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Player$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Player$ControlListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Player$ControlListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Player$MoveListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Player$MoveListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/PlayerInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/PlayerInterface.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Quorum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Quorum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/RecordedGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/RecordedGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Replayer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Replayer$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Replayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Replayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Rubble.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Rubble.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/StartControl$GetAccept.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/StartControl$GetAccept.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/StartControl$GetConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/StartControl$GetConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/StartControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/StartControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Buttons$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Buttons$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Buttons$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Buttons$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Buttons$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Buttons$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Buttons$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Buttons$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Buttons$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Buttons$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Buttons.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Buttons.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Car.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Car.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Cockpit.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Cockpit.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Coord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Coord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Corner.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Corner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/CornerOut.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/CornerOut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Curve.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Curve.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Direction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Direction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/EasyPark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/EasyPark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/GameArea$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/GameArea$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/GameArea.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/GameArea.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/GetAll.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/GetAll.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Goal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Goal.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Header$TimeKeeper.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Header$TimeKeeper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Header.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Header.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Ice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Ice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/IceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/IceTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Impossible.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Impossible.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Kidding.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Kidding.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Level.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Level.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/LevelFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/LevelFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Obstacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Obstacle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Precision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Precision.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/RandomRoad.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/RandomRoad.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/RectangleObstacle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/RectangleObstacle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Steer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Steer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Straight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Straight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Tow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Tow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Trailer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Trailer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Tricky.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Tricky.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Turn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Turn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/TurnAround.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/TurnAround.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Vehicle$CollisionAlert.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Vehicle$CollisionAlert.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Vehicle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tow/Warmup.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tow/Warmup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biljard/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Ball.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biljard/Coord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Coord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biljard/Hole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Hole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biljard/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Table.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/biljard/TwoballsGrade5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/TwoballsGrade5.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,6 +50,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -138,7 +80,7 @@
       <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Control\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.TwoballsGrade5">
     <configuration name="Control" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Control" />
       <module name="Control" />
@@ -153,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="biljard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="biljard" />
+    <configuration name="TwoballsGrade5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TwoballsGrade5" />
       <module name="biljard" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -206,7 +148,7 @@
       <item itemvalue="Application.labb3" />
       <item itemvalue="Application.chattcontacts" />
       <item itemvalue="Application.chattfor2" />
-      <item itemvalue="Application.biljard" />
+      <item itemvalue="Application.TwoballsGrade5" />
       <item itemvalue="Application.Control" />
       <item itemvalue="Application.Tow" />
       <item itemvalue="Application.chattfor2contacts" />
@@ -214,11 +156,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoballsGrade5" />
         <item itemvalue="Application.chattfor2contacts" />
         <item itemvalue="Application.Tow" />
         <item itemvalue="Application.Control" />
         <item itemvalue="Application.gasstart" />
-        <item itemvalue="Application.biljard" />
       </list>
     </recent_temporary>
   </component>
@@ -268,5 +210,8 @@
     <MESSAGE value="changename" />
     <MESSAGE value="adams poolgame" />
     <option name="LAST_COMMIT_MESSAGE" value="adams poolgame" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java$chattfor2.ic" NAME="chattfor2 Coverage Results" MODIFIED="1681218734044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

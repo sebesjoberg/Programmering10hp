@@ -5,10 +5,7 @@ import java.awt.event.*;
 import javax.swing.*;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Adam Sundqvist
- */
+
 public class TwoballsGrade5 {
 
     final static int UPDATE_FREQUENCY = 100;    // Global constant: fps, ie times per second to simulate
@@ -480,18 +477,14 @@ class Ball {
         double dY = (yB - yA) / Math.sqrt(((xB - xA) * (xB - xA)) + ((yB - yA) * (yB - yA)));
 
         double impulseSizeJ = ((PxA * dX + PyA * dY) - (PxB * dX + PyB * dY));
+        Coord c = new Coord(dX,dY);
+        c = Coord.mul(impulseSizeJ*1
+                ,c);
+        this.velocity.decrease(c);
+        otherBall.velocity.increase(c);
 
-        this.velocity.x = PxA - (impulseSizeJ * dX);
-        this.velocity.y = PyA - (impulseSizeJ * dY);
 
-        otherBall.velocity.x = PxB + (impulseSizeJ * dX);
-        otherBall.velocity.y = PyB + (impulseSizeJ * dY);
 
-        this.position.increase(this.velocity);
-        this.velocity.decrease(Coord.mul(FRICTION_PER_UPDATE, this.velocity.norm()));
-
-        otherBall.position.increase(otherBall.velocity);
-        otherBall.velocity.decrease(Coord.mul(FRICTION_PER_UPDATE, otherBall.velocity.norm()));
     }
 
     public void goesInCheck() {

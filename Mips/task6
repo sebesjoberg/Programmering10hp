@@ -19,3 +19,4 @@ endprogram:
   div.s $f12,$f1,$f2
   li $v0, 2
   syscall
+
