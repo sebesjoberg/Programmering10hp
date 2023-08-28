@@ -1,5 +1,5 @@
 # Credits go to Sebastian Sjöberg Test distributed by Joachim Parrow
-# file to calbirate thermometer
+# file to calibrate thermometer
 # pythonprov 2022-10-14
 
 def calibrate(ref,measured):
