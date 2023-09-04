@@ -3,6 +3,7 @@
 # pythonprov 2022-10-14
 
 def calibrate(ref,measured):
+   
     total_diff = 0
     for index in range(len(ref)):
         diff = round(ref[index]-measured[index],2)
@@ -16,7 +17,7 @@ def test():
     cases = [[[2,3,6,1,18],[2.1,3.2,6,1.05,17.9],-0.1],
              [[2,5,6,8,19],[2,5.1,6.2,8.5,19.6],-1000]]
     
-        
+    
     for index in range(len(cases)):
         try:
             assert cases[index][2]==calibrate(cases[index][0],cases[index][1])
@@ -25,3 +26,5 @@ def test():
             print('Did not pass test:',index, cases[index])
 if __name__ =="__main__":
     test()
+    
+    

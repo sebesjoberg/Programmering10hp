@@ -6,7 +6,8 @@ def initialsgetter(name):
     initials = []
     for part in name:
         initials.append(part[0])
-    initials = ".".join(initials)
+        initials.append(".")
+    initials = "".join(initials)
 
     return initials
 
@@ -16,7 +17,7 @@ def test():
              "Sebastian Sjöberg",
              "Emil",
              ""]
-    expected = ["J.G.P", "S.S", "E", ""]
+    expected = ["J.G.P.", "S.S.", "E.", ""]
     for i in range(len(names)):
         print(expected[i] == initialsgetter(names[i]))
 
