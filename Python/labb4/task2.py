@@ -19,7 +19,10 @@ def test():
     urls = ["http://www.it.uu.se/katalog/bylastname",
             "http://user.it.uu.se/~joachim/", "https://www2.uu.se/student"]
     for url in urls:
-        email_getter(url)
+        try:
+            email_getter(url)
+        except Exception as e:
+            print(e)
 
 if __name__ == "__main__":
     test()

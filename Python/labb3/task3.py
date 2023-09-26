@@ -20,7 +20,10 @@ def text_creater(dictionary, length):
     string = ""
     words = list(dictionary.keys())
     for i in range(length):
-        word = random.choice(words)
+        if length(words)==0:
+            word = random.choice(list(dictionary.keys()))
+        else:
+            word = random.choice(words)
         string += word + " "
         words = dictionary.get(word)
 

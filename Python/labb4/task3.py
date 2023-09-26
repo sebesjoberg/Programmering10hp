@@ -41,6 +41,8 @@ def web_linksgetter(url):
 def test():
     url = "https://www.stssektionen.com/"
     print(web_linksgetter(url))
+    url = "http://www.it.uu.se/katalog/bylastname"
+    print(web_linksgetter(url))
 
 
 if __name__ == "__main__":

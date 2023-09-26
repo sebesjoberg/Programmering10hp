@@ -35,10 +35,16 @@ def dead_links_checker(url):
 
 
 def test():
-    url = "https://user.it.uu.se/~joachim/"
-    dead_links_checker(url)
-    url = "https://www.it.uu.se/katalog/bylastname"
-    dead_links_checker(url)
+    try:
+        url = "https://user.it.uu.se/~joachim/"
+        dead_links_checker(url)
+    except Exception as e:
+        print(e)
+    try:
+        url = "https://www.it.uu.se/katalog/bylastname"
+        dead_links_checker(url)
+    except Exception as e:
+        print(e)
 
 
 if __name__ == "__main__":

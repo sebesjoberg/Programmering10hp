@@ -19,6 +19,7 @@ def test():
              ""]
     expected = ["J.G.P.", "S.S.", "E.", ""]
     for i in range(len(names)):
+        print(names[i]," is expected to be: ",expected[i])
         print(expected[i] == initialsgetter(names[i]))
 
 
