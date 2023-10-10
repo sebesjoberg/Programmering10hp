@@ -33,5 +33,5 @@ def find_first_email(text):
 
     if at_index == name_end-1:
         return None
-
+  
     return text[name_start: name_end]

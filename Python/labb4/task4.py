@@ -29,8 +29,9 @@ def dead_links_checker(url):
                 dead_links.add(url)
         else:
             weird_links += 1
-
+    print("Dead links are")
     print(dead_links)
+    print("http links, weird links")
     print(http_links, weird_links)
 
 

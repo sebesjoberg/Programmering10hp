@@ -5,7 +5,7 @@ from urllib.request import urlopen
 
 
 def find_first_link(text):
-    start = text.find('<ahref="') + 8
+    start = text.find('<ahref=') + 8
     end = -1
     for index in range(start, len(text)):
         end = index
@@ -39,10 +39,14 @@ def web_linksgetter(url):
 
 
 def test():
-    url = "https://www.stssektionen.com/"
-    print(web_linksgetter(url))
-    url = "http://www.it.uu.se/katalog/bylastname"
-    print(web_linksgetter(url))
+    try:
+        url = "https://www.stssektionen.com/"
+        print(web_linksgetter(url))
+        url = "http://www.it.uu.se/katalog/bylastname"
+        print(web_linksgetter(url))
+    except Exception as e:
+        print(e)
+
 
 
 if __name__ == "__main__":

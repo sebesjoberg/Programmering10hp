@@ -21,8 +21,12 @@ def test():
     for url in urls:
         try:
             email_getter(url)
+    
         except Exception as e:
             print(e)
+
+        
+        
 
 if __name__ == "__main__":
     test()
