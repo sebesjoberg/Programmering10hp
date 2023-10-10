@@ -15,6 +15,12 @@ class TimeKeeper implements ActionListener {
         this.clock = clock;
         this.increment = increment;
     }
+    void hacked(){
+        clock = clock/2;
+        thePlayer.showTime(true);
+        thePlayer.sendTime(timeToString());
+
+    }
 
     void incrementClock() {clock += increment;}
 

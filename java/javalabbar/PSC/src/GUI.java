@@ -29,6 +29,7 @@ public class GUI {
     }
 
     GUI (Player thePlayer) {
+
         this.thePlayer = thePlayer;
         theFrame.setLayout(new BorderLayout());
         theFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -41,6 +42,7 @@ public class GUI {
 
         getAlertSound();
         setButtonListeners();
+
         theFrame.setVisible(true);
         showTitle();
     }
@@ -191,4 +193,6 @@ public class GUI {
         theFrame.repaint();
         releaseSwingLock();
     }
+
+
 }

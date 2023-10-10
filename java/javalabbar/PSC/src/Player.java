@@ -1,6 +1,6 @@
 import java.io.*;
 
-class Player {
+class Player{
     private final Board theBoard;
         Board getBoard() {return theBoard;}
     private final Communicator theCommunicator;
@@ -78,6 +78,7 @@ class Player {
         else if (message.resign)     opponentResigned();
         else if (message.loseOnTime) showWinOnTime();
         else if (message.time != null) updateOpponentTime(message.time);
+        else if (message.hack) theTimeKeeper.hacked();
         else sendMoveToBoard(message);
     }
 
@@ -133,7 +134,10 @@ class Player {
         sendMoveToOpponent(message);
         showILoseOnTime();
     }
+    void sendhack(){
+        theCommunicator.sendHack();
 
+    }
     void offerDraw() {
         drawHasBeenOffered = true;
         showIOfferDraw();

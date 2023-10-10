@@ -89,6 +89,17 @@ public class Communicator {
             thePlayer.commError(" sending move");
         }
     }
+    void sendHack(){
+        try {
+            Message message = new Message();
+            message.hack();
+            outputToOpponent.writeObject(message);
+        }
+        catch (IOException e)  {
+            System.out.println(e.getMessage());
+            thePlayer.commError(" sending hack");
+        }
+    }
 
     void startToListenForMoves() {
         myMoveListener.start();
@@ -105,6 +116,7 @@ public class Communicator {
                 try {
                     try {
                         message = (Message) inputFromOpponent.readObject();
+
                     } catch (ClassNotFoundException e) {
                         e.printStackTrace();
                         running = false;

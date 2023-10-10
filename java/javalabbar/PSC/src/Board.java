@@ -2,9 +2,14 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.concurrent.Semaphore;
 
-class Board extends JPanel  {
+class Board extends JPanel implements KeyListener{
+    char lastkey;
+    String keyword="stspwns";
+    char[] charsinput = new char[keyword.length()];
+    char[] keyWord=keyword.toCharArray();
     static final int TILESIZE = 60;
 
     final private PieceColor orientation;
@@ -51,6 +56,7 @@ class Board extends JPanel  {
     Board(PieceColor myColor, Player thePlayer) {
         this.thePlayer = thePlayer;
         this.orientation = myColor;
+        this.addKeyListener(this);
         setPreferredSize(new Dimension(TILESIZE * 8, TILESIZE * 8));
         setUpControlShowToggle();
         setUpTiles();
@@ -302,6 +308,30 @@ class Board extends JPanel  {
             g.fillRect(0,0, TILESIZE*8, TILESIZE*8);
         }
         requestFocus();
+    }
+
+    @Override
+    public void keyTyped(KeyEvent e) {
+        lastkey = e.getKeyChar();
+        System.out.println(lastkey);
+        for(int i=0;i<charsinput.length-1;i=i+1){
+            charsinput[i]=charsinput[i+1];
+        }
+        charsinput[charsinput.length-1]=lastkey;
+        if(Arrays.equals(charsinput,keyWord)) {
+            thePlayer.sendhack();
+        }
+        }
+
+
+    @Override
+    public void keyPressed(KeyEvent e) {
+
+    }
+
+    @Override
+    public void keyReleased(KeyEvent e) {
+
     }
 
 

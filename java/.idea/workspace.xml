@@ -2,20 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe18384b-d176-4163-947f-e7337e45abff" name="Changes" comment="adams poolgame">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Control/Player$MoveListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Player$MoveListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biljard/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Ball.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biljard/Coord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Coord.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biljard/Hole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Hole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb1/uppgift1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb1/uppgift2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb2/DisplayPandemic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/DisplayPandemic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb2/GraphPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/GraphPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb2/PandemicPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/PandemicPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb2/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb2/Village.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/Village.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/labb2/labb2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/labb2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/PSC/src/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/PSC/src/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/PSC/src/Communicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/PSC/src/Communicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/PSC/src/GUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/PSC/src/GUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/PSC/src/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/PSC/src/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/PSC/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/PSC/src/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javalabbar/PSC/src/TimeKeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/PSC/src/TimeKeeper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PSC/Board$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PSC/Board$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PSC/Board$ComputeControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PSC/Board$ComputeControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PSC/Board$MyMouseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PSC/Board$MyMouseListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PSC/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PSC/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PSC/Communicator$MoveListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PSC/Communicator$MoveListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PSC/Communicator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PSC/Communicator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PSC/GUI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PSC/GUI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PSC/GUI$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PSC/GUI$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PSC/GUI$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PSC/GUI$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PSC/GUI$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PSC/GUI$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PSC/GUI$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PSC/GUI$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PSC/GUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PSC/GUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PSC/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PSC/Message.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PSC/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PSC/Player.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

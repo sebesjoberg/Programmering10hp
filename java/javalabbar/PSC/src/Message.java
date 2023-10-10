@@ -4,7 +4,7 @@ class Message implements Serializable {
     TilePosition source;
     TilePosition target;
     PieceType promotionType;
-    boolean offerDraw, acceptDraw, rejectDraw, resign, loseOnTime;
+    boolean offerDraw, acceptDraw, rejectDraw, resign, loseOnTime, hack;
     String time;
 
     Message(TilePosition source, TilePosition target, PieceType promotionType) {
@@ -22,6 +22,7 @@ class Message implements Serializable {
     void offerDraw() {
         offerDraw = true;
     }
+    void hack(){hack = true;}
 
     void acceptDraw() {
         acceptDraw = true;
