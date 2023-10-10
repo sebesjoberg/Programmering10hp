@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe18384b-d176-4163-947f-e7337e45abff" name="Changes" comment="adams poolgame">
-      <change beforePath="$PROJECT_DIR$/../.idea/Programmering10hp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/Programmering10hp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Mips/task6" beforeDir="false" afterPath="$PROJECT_DIR$/../Mips/task6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/biljard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/biljard/biljard.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javalabbar/biljard/src/TwoballsGrade5.java" beforeDir="false" afterPath="$PROJECT_DIR$/javalabbar/biljard/src/TwoballsGrade5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ChatParticipant.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ChatParticipant.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/Message.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/MyObjectStreamListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/MyObjectStreamListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager$InnerListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager$InnerListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/ObjectStreamManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Chatt/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Chatt/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Control/Player$MoveListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Control/Player$MoveListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/biljard/Ball.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Ball.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/biljard/Coord.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Coord.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/biljard/Hole.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Hole.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biljard/Table.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/Table.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/biljard/TwoballsGrade5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/biljard/TwoballsGrade5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/uppgift1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb1/uppgift2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb2/DisplayPandemic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/DisplayPandemic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb2/GraphPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/GraphPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb2/PandemicPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/PandemicPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb2/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb2/Village.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/Village.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/labb2/labb2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/labb2/labb2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +34,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2FgHir7bKJc3QlU5AVby5LLXilE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -58,7 +57,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-18&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/ss691/Desktop/Programmering10hp/java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ss691/Desktop/Programmering10hp/java/javalabbar/PSC&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
@@ -73,17 +72,24 @@
       <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ss691\Desktop\Programmering10hp\java\javalabbar" />
+      <recent name="C:\Users\ss691\Desktop\Programmering10hp\java\javalabbar\PSC" />
+      <recent name="C:\Users\ss691\Desktop\Programmering10hp\java\javalabbar\Chess" />
       <recent name="C:\Users\ss691\Desktop\Programmering10hp\java\javalabbar\biljard\src" />
       <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\Java\javalabbar\labb3\src" />
-      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\Java\biljard2\src" />
-      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Tow\src" />
-      <recent name="C:\Users\ss691\OneDrive\Skrivbord\Programmeringslabbar\java\javalabbar\Control\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TwoballsGrade5">
+  <component name="RunManager" selected="Application.PSC">
     <configuration name="Control" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Control" />
       <module name="Control" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PSC" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="PSC" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -95,7 +101,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoballsGrade5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="TwoballsGrade5" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TwoballsGrade5" />
       <module name="biljard" />
       <method v="2">
@@ -123,13 +129,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="gasstart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="gasstart" />
-      <module name="biljard" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="labb3" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="openjdk-18" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -145,6 +144,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.PSC" />
       <item itemvalue="Application.labb3" />
       <item itemvalue="Application.chattcontacts" />
       <item itemvalue="Application.chattfor2" />
@@ -152,15 +152,12 @@
       <item itemvalue="Application.Control" />
       <item itemvalue="Application.Tow" />
       <item itemvalue="Application.chattfor2contacts" />
-      <item itemvalue="Application.gasstart" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TwoballsGrade5" />
         <item itemvalue="Application.chattfor2contacts" />
         <item itemvalue="Application.Tow" />
         <item itemvalue="Application.Control" />
-        <item itemvalue="Application.gasstart" />
       </list>
     </recent_temporary>
   </component>
