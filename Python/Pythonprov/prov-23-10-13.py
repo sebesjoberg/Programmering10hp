@@ -3,15 +3,21 @@
 # pythonprov 2023-10-13
 
 def encrypt(word_list):
+    if len(word_list) == 0:
+        return ""
     crypto = ""
+    
     for index in range(len(word_list[0])):
-        for word in word_list:
-            crypto += word[index]
         
+        for word in word_list:
+            crypto += word[index]   
     return crypto
 
 def test():
-    cases = [[["ILOV","EPRO","GRAM","MING"],"IEGMLPRIORANVOMG"]]
+    cases = [[["ILOV","EPRO","GRAM","MING"],"IEGMLPRIORANVOMG"],
+             [["",""],""],
+             [["hi","my"],"hmiy"],
+             [[],""]]
     
     
     for index in range(len(cases)):
