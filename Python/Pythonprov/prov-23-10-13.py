@@ -3,14 +3,15 @@
 # pythonprov 2023-10-13
 
 def encrypt(word_list):
-    if len(word_list) == 0:
-        return ""
-    crypto = ""
-    
-    for index in range(len(word_list[0])):
+    try:
+        crypto = ""
         
-        for word in word_list:
-            crypto += word[index]   
+        for index in range(len(word_list[0])):
+            
+            for word in word_list:
+                crypto += word[index]   
+    except:
+        return ""
     return crypto
 
 def test():
